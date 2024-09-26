@@ -126,3 +126,16 @@ section h2 {
 }
 
 /* Another Section */
+
+.secondSection {
+    padding: 80px;
+    justify-content: center;
+    background-color: #CBF3F0;
+}
+
+.secondSection h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    width: 550px;
+}
+
