@@ -17,7 +17,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #2EC4B6;
+    background-color: #219ebc;
     color: white;
 }
 
@@ -38,3 +38,55 @@ a:hover {
     text-decoration: underline;
     text-decoration-thickness: 4px;
 }
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #219ebc;
+    padding: 30px;
+    align-items: center;
+}
+
+main img {
+    width: 35%;
+    border-radius: 0.5em;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 1.25rem;
+    width: 350px;
+    gap: 10px;
+    color: white;
+}
+
+.github button {
+    padding: 13px 35px;
+    border: none;
+    background-color: #023047;
+    font-weight: 600;
+    border-radius: 0.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.github button:hover {
+    background-color: #FFFF;
+    color: #000;
+}
+
+/* First Section */
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
