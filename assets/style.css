@@ -139,3 +139,47 @@ section h2 {
     width: 550px;
 }
 
+/* Third Section */
+
+.thirdSection {
+    padding: 80px;
+}
+
+.modal {
+    width: 650px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 0.5em;
+    background-color: #023047;
+}
+
+.textModal {
+    width: 50%;
+}
+
+.modal button {
+    padding: 13px 35px;
+    border: none;
+    background-color: #ffffff;
+    font-weight: 600;
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.modal button:hover {
+    background-color: rgba(85, 162, 198, 0.659);
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+}
