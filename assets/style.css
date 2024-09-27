@@ -183,3 +183,52 @@ footer {
     justify-content: center;
     background-color: rgb(48, 48, 48);
 }
+
+#showItems {
+    display: none;
+}
+
+@media (max-width: 425px) {
+    #showItems {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .show, ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 25px;
+        background-color: #303030;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    main img {
+        width: 335px;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .thirdSection {
+        padding: 35px;
+    }
+
+    .modal {
+        height: 260px;
+    }
+}
