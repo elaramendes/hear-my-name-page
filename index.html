@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hear My Name</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/images/emoji.png" type="image/x-icon">
+    <meta name="description"
+        content="HearMyName é um aplicativo que ajuda pessoas com deficiência auditiva a saberem quando estão sendo chamadas.">
+        <meta name="author" content="Elara Mendes">
+        <meta name="keywords" content="hear my name, elara mendes, aplicativo, deficiência auditiva">
 </head>
 <body>
     <header>
@@ -18,8 +23,8 @@
         <div class="nav-links">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="mailto:elaramendes@hotmail.com">Contato</a></li>
             </ul>
         </div>
 
@@ -30,12 +35,12 @@
     <main>
 
         <div class="main-text">
-            <h2>O que é o Hear My Name?</h2>
+            <h2 id="Sobre">O que é o Hear My Name?</h2>
             <p>HearMyName é um aplicativo que ajuda pessoas com deficiência auditiva a saberem quando estão sendo chamadas. Ele
                 usa reconhecimento de voz para identificar o nome do usuário e emite uma notificação visual ou vibratória,
                 garantindo acessibilidade e maior independência no dia a dia.</p>
                 <div class="github">
-                    <button>Github</button>
+                    <button onclick="window.location.href = 'https://github.com/elaramendes/hear-my-name' ">Github</button>
                 </div>
         </div>
         
@@ -84,7 +89,7 @@
                         podemos tornar a tecnologia mais acessível para todos.</p>
                 </div>
         
-                <button>Contato</button>
+                <button onclick="window.location.href = 'mailto:elaramendes@hotmail.com' ">Contato</button>
             </div>
         </section>
 
