@@ -1,11 +1,16 @@
 function showItems() {
     let nav_items = document.querySelector('.nav-links');
+    let icon = document.querySelector('#showItems');
+    
 
     nav_items.classList.toggle('show');
 
-    //if (nav_items.classList.contains === 'show') {
-        //nav_items.classList.remove('show');
-    //} else {
-       // nav_items.classList.add('show');
-    //}
+   // console.log(icon.src)
+
+    if (icon.src.includes('menu_open.png')) {
+        icon.src = './assets/images/menu_close.png';
+      } else {
+        icon.src = './assets/images/menu_open.png';
+      }
+      
 };
