@@ -134,6 +134,11 @@ section h2 {
 }
 
 #small {
+    width: 39%;
+    border-radius: 50%;
+}
+
+#photo {
     width: 50%;
 }
 
@@ -226,9 +231,23 @@ footer {
     width: 50%;
 }
 
-@media (max-width: 425px) {
+#img_new {
+    border-radius: 340px;
+}
+
+.title_part {
+    color: #023047;
+    cursor: pointer;
+}
+
+.changeBG {
+    background-color: rgba(226, 226, 226, 0.21);
+}
+
+@media (max-width: 528px) {
     #showItems {
         display: block;
+        cursor: pointer;
     }
 
     .nav-links {
@@ -285,5 +304,13 @@ footer {
 
     .text_about {
         width: unset;
+    }
+
+    #small {
+        width: 195px;
+    }
+
+    #photo {
+        width: 60%;
     }
 }
